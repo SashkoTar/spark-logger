@@ -3,4 +3,4 @@ image: maven:latest
 build:
   stage: build
   script:
-    - mvn cleam package -DskipTests
+    - mvn clean package -DskipTests
